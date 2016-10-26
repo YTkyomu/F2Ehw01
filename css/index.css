@@ -1,12 +1,16 @@
 html{
   background-color: #EDF2C5;
 }
+body{
+  margin: auto;
+}
 .container{
-  width: 1260px;
-  height: 940px;
+  max-width: 1260px;
+  max-height: 940px;
   margin: 0px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 300px;
+  //padding-right: 150px;
+  margin: auto;
 }
 .hbox{
   height: 43px;
@@ -192,7 +196,6 @@ hr{
   padding-top: 3px;
 }
 .box4{
-  float: left;
   height: 65px;
   width: 1260px;
   background-color: #889C5B;
